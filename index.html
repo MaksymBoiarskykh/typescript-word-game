@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>word-game</title>
+  <style>
+    .field {
+      margin-bottom: 10px;
+      width: 150px;
+    }
+
+    .message {
+      font-weight: bold;
+      font-size: 20px;
+      color: rgb(61, 61, 123);
+    }
+
+    button {
+      background: rgb(61, 61, 123);
+      color: #fff;
+      border: none;
+      padding: 3px 60px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="text" class="field" placeholder="write the word">
+  <button>step</button>
+  <div class="message"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
